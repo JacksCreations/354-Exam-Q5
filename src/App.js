@@ -7,15 +7,16 @@ import DisplayUsers from './components/DisplayUsers';
 const App = () => {
   const [users, setUsers] = useState([
     {
-      name: 'JackLohmar',
+      user: 'JackLohmar',
     },
     {
-      name: 'DonaldDuck',
+      user: 'DonaldDuck',
     },
   ]);
 
   const addUser = async (user) => {
     setUsers([...users, user]);
+    users.push(user);
     console.log(users);
   };
 
