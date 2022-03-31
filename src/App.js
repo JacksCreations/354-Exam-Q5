@@ -10,7 +10,7 @@ const App = () => {
       user: 'JackLohmar',
     },
     {
-      user: 'DonaldDuck',
+      user: 'Donaldduck',
     },
   ]);
 
