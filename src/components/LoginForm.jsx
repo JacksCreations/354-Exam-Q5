@@ -15,6 +15,7 @@ const LoginForm = ({ addUser }) => {
   function handleSubmit(event) {
     //alert('Login form submitted: ' + user + ' ' + password);
     event.preventDefault();
+    setUser('');
     addUser({ user });
   }
 

@@ -17,7 +17,6 @@ const App = () => {
   const addUser = async (user) => {
     setUsers([...users, user]);
     users.push(user);
-    console.log(users);
   };
 
   return (
